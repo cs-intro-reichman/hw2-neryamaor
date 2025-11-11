@@ -23,7 +23,7 @@ if(vc.equals(v)){
 				System.out.print(nextnumber + " ");
 				j++;
 			} while (nextnumber != 1);
-			System.out.println("("+j+")");//סוף השורה
+			System.out.println("("+(j+1)+")");//סוף השורה
 			i++;//אינדקס שורות
 		}//לופ של שורות
 		System.out.println("Every one of the first " + i + " hailstone sequences reached 1.");
